@@ -1,4 +1,4 @@
-<a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Pratik's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" /></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Pratik's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
+<a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Amir's Twitter" width="22px" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" /></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Amir's Linkdein" width="22px" src="https://pbs.twimg.com/media/EVq2ks7XQAQIZte.png"/></a>
 ## Hi 👋 It's Amir! 
 
 ###### Proven iOS Developer with more than 20 successful apps available from Apple's App Store. Navigates development and submission processes. Adept at verifying compliance with both App Store policies and design best practices. Creates efficient, reliable frameworks to produce profitable applications. 
@@ -19,6 +19,7 @@
 
 
 <!--
+<a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Amir's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" /></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Amir's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/></a>
 **AmirDaliri/AmirDaliri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 
