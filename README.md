@@ -1,4 +1,4 @@
-<a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Amir's Twitter" width="22px" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" /></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Amir's Linkdein" width="22px" src="https://pbs.twimg.com/media/EVq2ks7XQAQIZte.png"/></a>
+<a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Amir's Twitter" width="22px" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png"/></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Amir's Linkdein" width="22px" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"/></a>
 ## Hi 👋 It's Amir! 
 
 ###### Proven iOS Developer with more than 20 successful apps available from Apple's App Store. Navigates development and submission processes. Adept at verifying compliance with both App Store policies and design best practices. Creates efficient, reliable frameworks to produce profitable applications. 
