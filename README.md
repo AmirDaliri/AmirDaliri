@@ -1,8 +1,13 @@
 <a href="https://twitter.com/AmoAmir_" target="_blank" rel="nofollow"><img align="right" alt="Amir's Twitter" width="22px" src="https://cdn.iconscout.com/icon/free/png-512/free-twitter-9420781-7651211.png?f=webp&w=256"/></a><a href="https://www.linkedin.com/in/amirdalirii/" target="_blank" rel="nofollow"><img align="right" alt="Amir's Linkdein" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"/></a>
 ## Hi 👋 It's Amir! 
-
-###### Proven iOS Developer with more than 20 successful apps available from Apple's App Store. Navigates development and submission processes. Adept at verifying compliance with both App Store policies and design best practices. Creates efficient, reliable frameworks to produce profitable applications. 
-
+##### Innovative Senior iOS Developer | Transforming Ideas into Seamless User Experiences | Expert in Swift, SwiftUI, Combine, RXSwift, UnitTesting, & CI/CD | Passionate About Crafting High-Performance Mobile Solutions
+###### As a technically astute and solutions-oriented professional, I bring a demonstrated track record of success in spearheading complex projects for renowned clients, including Bragi, Koc Sistem, Conexus Canada Banking, Coca-Cola, Total Oil, and Tuborg.
+##### Highlights & Key Profile Offerings:
+###### ✅ Proficient in implementing cutting-edge technologies, my expertise lies in Swift, SwiftUI, Combine, RXSwift, and AVFoundation to develop and deliver robust applications.
+###### ✅ My leadership qualities are unmatched, evident in my ability to lead and collaborate with cross-functional teams, drive development initiatives, and ensure adherence to Agile methodologies. 
+###### ✅ I excel at reviewing and refining code quality through comprehensive testing and profiling, utilizing version control systems like GIT, and implementing design patterns such as MVVM for optimal application architecture.
+###### ✅ With demonstrated expertise in Core Data, SQLite, and in-app purchases, coupled with a solid background in team management and recruitment, I offer a unique blend of technical prowess and leadership skills. 
+###### ✅ As a trilingual professional, I am committed to solving challenges and delivering projects with a focus on high performance, user satisfaction, and adherence to industry best practices.
 ----
 <details> 
  <summary><b> GitHub Stats</b>: </summary>
