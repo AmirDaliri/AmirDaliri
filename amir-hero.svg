@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Amir Daliri — Senior iOS Engineer</title>
+  <desc id="desc">Animated dark profile banner introducing Amir Daliri, founder of AS Apps Studio.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.55" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#11152B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5A5F"/>
+      <stop offset="0.46" stop-color="#AF52DE"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+    <linearGradient id="accentSoft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B6B"/>
+      <stop offset="0.55" stop-color="#C65DFF"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.035"/>
+    </linearGradient>
+    <radialGradient id="glowPurple">
+      <stop offset="0" stop-color="#AF52DE" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#AF52DE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4C8DFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9DA7C2" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="canvasClip">
+      <rect width="1200" height="420" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .display { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 2.5px; }
+    .name { font-size: 58px; font-weight: 800; letter-spacing: -2.6px; }
+    .role { font-size: 23px; font-weight: 560; letter-spacing: -0.35px; }
+    .tagline { font-size: 16px; font-weight: 500; }
+    .chip { font-size: 12px; font-weight: 650; letter-spacing: 0.25px; }
+    .metric { font-size: 34px; font-weight: 790; letter-spacing: -1px; }
+    .metric-label { font-size: 10px; font-weight: 700; letter-spacing: 1.7px; }
+
+    .ambient-a { animation: drift-a 10s cubic-bezier(.645,.045,.355,1) infinite alternate; }
+    .ambient-b { animation: drift-b 13s cubic-bezier(.645,.045,.355,1) infinite alternate; }
+    .device { animation: float 6s cubic-bezier(.645,.045,.355,1) infinite; transform-origin: 965px 210px; }
+    .pulse { animation: pulse 3.4s cubic-bezier(.215,.61,.355,1) infinite; transform-origin: center; transform-box: fill-box; }
+    .cursor { animation: blink 1.05s steps(1, end) infinite; }
+    .tagline-1 { animation: cycle 12s cubic-bezier(.165,.84,.44,1) infinite; }
+    .tagline-2 { animation: cycle 12s 4s cubic-bezier(.165,.84,.44,1) infinite; opacity: 0; }
+    .tagline-3 { animation: cycle 12s 8s cubic-bezier(.165,.84,.44,1) infinite; opacity: 0; }
+    .spark-a { animation: spark 3.5s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .spark-b { animation: spark 3.5s 1.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .spark-c { animation: spark 3.5s 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+
+    @keyframes drift-a {
+      from { transform: translate3d(-20px, -8px, 0) scale(1); opacity: .72; }
+      to { transform: translate3d(46px, 22px, 0) scale(1.12); opacity: .96; }
+    }
+    @keyframes drift-b {
+      from { transform: translate3d(22px, 20px, 0) scale(1.08); opacity: .72; }
+      to { transform: translate3d(-44px, -18px, 0) scale(.94); opacity: .92; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translate3d(0, 0, 0); }
+      50% { transform: translate3d(0, -10px, 0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(.94); opacity: .25; }
+      50% { transform: scale(1.1); opacity: .7; }
+    }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translate3d(0, 8px, 0); }
+      5%, 27% { opacity: 1; transform: translate3d(0, 0, 0); }
+      33%, 100% { opacity: 0; transform: translate3d(0, -6px, 0); }
+    }
+    @keyframes spark {
+      0%, 100% { transform: scale(.68) rotate(0deg); opacity: .3; }
+      50% { transform: scale(1.08) rotate(45deg); opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ambient-a, .ambient-b, .device, .pulse, .cursor,
+      .tagline-1, .tagline-2, .tagline-3, .spark-a, .spark-b, .spark-c {
+        animation: none !important;
+      }
+      .tagline-1 { opacity: 1; transform: none; }
+      .tagline-2, .tagline-3 { opacity: 0; }
+    }
+  </style>
+
+  <g clip-path="url(#canvasClip)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+
+    <circle class="ambient-a" cx="215" cy="20" r="240" fill="url(#glowPurple)"/>
+    <circle class="ambient-b" cx="1080" cy="380" r="280" fill="url(#glowBlue)"/>
+    <path d="M0 351C237 282 383 447 633 360S966 257 1200 310" fill="none" stroke="url(#accentSoft)" stroke-opacity="0.16" stroke-width="1.5"/>
+
+    <g class="display">
+      <g transform="translate(72 54)">
+        <rect width="260" height="31" rx="15.5" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.11"/>
+        <circle cx="16" cy="15.5" r="4" fill="#66E3A4"/>
+        <text class="eyebrow" x="29" y="20" fill="#C9D2E9">APPLE PLATFORMS · ISTANBUL</text>
+      </g>
+
+      <text class="name" x="70" y="157" fill="#F7F9FF">Amir Daliri</text>
+      <rect x="71" y="176" width="78" height="4" rx="2" fill="url(#accentSoft)"/>
+      <text class="role" x="70" y="218" fill="#CDD5EA">Senior iOS Engineer <tspan fill="#75809E">/</tspan> Product Builder</text>
+
+      <g class="mono tagline" fill="#AEB9D2">
+        <g class="tagline-1">
+          <text x="70" y="262"><tspan fill="#C65DFF">›</tspan> Shipping thoughtful Apple-platform experiences</text>
+        </g>
+        <g class="tagline-2">
+          <text x="70" y="262"><tspan fill="#FF6B6B">›</tspan> Architecture · performance · privacy</text>
+        </g>
+        <g class="tagline-3">
+          <text x="70" y="262"><tspan fill="#58A6FF">›</tspan> Founder at AS Apps Studio</text>
+        </g>
+        <rect class="cursor" x="541" y="246" width="8" height="20" rx="2" fill="#75809E"/>
+      </g>
+
+      <g transform="translate(70 310)">
+        <g>
+          <rect width="92" height="34" rx="17" fill="#FF6B6B" fill-opacity="0.11" stroke="#FF8588" stroke-opacity="0.36"/>
+          <text class="chip" x="46" y="22" text-anchor="middle" fill="#FFB0B2">Swift</text>
+        </g>
+        <g transform="translate(102)">
+          <rect width="105" height="34" rx="17" fill="#AF52DE" fill-opacity="0.12" stroke="#D48AF3" stroke-opacity="0.33"/>
+          <text class="chip" x="52.5" y="22" text-anchor="middle" fill="#E2B1F7">SwiftUI</text>
+        </g>
+        <g transform="translate(217)">
+          <rect width="96" height="34" rx="17" fill="#4C8DFF" fill-opacity="0.12" stroke="#78AAFF" stroke-opacity="0.34"/>
+          <text class="chip" x="48" y="22" text-anchor="middle" fill="#A7C6FF">UIKit</text>
+        </g>
+        <g transform="translate(323)">
+          <rect width="128" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.14"/>
+          <text class="chip" x="64" y="22" text-anchor="middle" fill="#C7CEE0">Architecture</text>
+        </g>
+        <g transform="translate(461)">
+          <rect width="97" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.14"/>
+          <text class="chip" x="48.5" y="22" text-anchor="middle" fill="#C7CEE0">CI/CD</text>
+        </g>
+      </g>
+    </g>
+
+    <g class="device" filter="url(#shadow)">
+      <rect x="813" y="43" width="316" height="334" rx="46" fill="#060913" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+      <rect x="826" y="56" width="290" height="308" rx="36" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <rect x="920" y="68" width="102" height="22" rx="11" fill="#05070D"/>
+
+      <circle class="pulse" cx="971" cy="165" r="72" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.52"/>
+      <circle cx="971" cy="165" r="48" fill="url(#accent)"/>
+      <rect x="939" y="133" width="64" height="64" rx="18" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text class="mono" x="971" y="175" text-anchor="middle" fill="#FFFFFF" font-size="27" font-weight="800">{ }</text>
+
+      <g class="spark-a" fill="#FF9EA2">
+        <path d="M884 124h14M891 117v14" stroke="#FF9EA2" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <g class="spark-b" fill="#C977EB">
+        <path d="M1050 143h12M1056 137v12" stroke="#C977EB" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <g class="spark-c" fill="#7BB0FF">
+        <circle cx="1076" cy="218" r="4"/>
+      </g>
+
+      <g class="display">
+        <text class="metric" x="859" y="278" fill="#F7F9FF">10+</text>
+        <text class="metric-label" x="861" y="298" fill="#838EAA">YEARS</text>
+        <rect x="947" y="253" width="1" height="51" fill="#FFFFFF" fill-opacity="0.12"/>
+        <text class="metric" x="974" y="278" fill="#F7F9FF">∞</text>
+        <text class="metric-label" x="975" y="298" fill="#838EAA">CURIOSITY</text>
+        <circle cx="859" cy="329" r="4" fill="#66E3A4"/>
+        <text x="872" y="333" fill="#AEB9D2" font-size="12" font-weight="650">BUILDING AT AS APPS STUDIO</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+</svg>
